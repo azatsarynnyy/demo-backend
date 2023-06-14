@@ -80,7 +80,7 @@ inline:
       volume: { }
     - name: idea-rhel8-injector
       container:
-        image: 'registry.redhat.io/devspaces/idea-rhel8:3.8'
+        image: 'quay.io/che-incubator/che-idea:next'
         command: ["/projector/entrypoint-init-container.sh"]
         env:
           - name: PROJECTOR_VOLUME_MOUNT
